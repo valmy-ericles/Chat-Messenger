@@ -12,7 +12,7 @@
       <%= @user.name %>
     </div>
     <div class="status">
-      Online
+      <%= @user.is_online ? "Online" : "Offline" %>
     </div>
   </div>
 <% end %>
